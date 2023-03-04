@@ -346,6 +346,16 @@ li {
     border: 1px solid #626262;
 }
 
+p:nth-child(even){
+    background-color: darkblue;
+}
+a:nth-child(even){
+    background-color: darkred;
+}
+h2:nth-child(even){
+    background-color: darkred;
+}
+
 .img-1:nth-child(2) {
     background-color: darkblue;
 }
@@ -370,7 +380,5 @@ li {
     background-color: darkblue;
 }
 
-.card-3:nth-child(even) {
-    background-color: darkblue;    
-}
+
 
